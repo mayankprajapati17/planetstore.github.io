@@ -1,0 +1,149 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: #5AC8FB; */
+    font-family: gilroy;
+    display: flex;
+}
+
+#main #left{
+    height: 100%;
+    width: 50%;
+    background-image: url(https://lnct.ac.in/wp-content/uploads/2021/05/LNCT-Group-of-colleges-20-1024x576.jpg);
+    position: relative;  
+    overflow: hidden;
+
+}
+
+#main #right{
+
+    background-color: lightblue;
+    position: auto;
+}
+
+#main #profile{
+    height: 100px;
+    width: 100px;
+background-color: white;
+border: 1px solid white;
+border-radius: 50%;
+position: relative;
+top: 10%;
+left: 40%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#p{
+    font-size: 75px;
+    color: brown;
+    position: relative;
+}
+
+#main p{
+    position: absolute;
+    left: 26%;
+    top: 30%;
+    font-family: gilroy;
+    font-size: 18px;
+    font-weight: 600;
+}
+#main x{
+    position:absolute;
+    left:42%;
+    top: 35.5%;
+    font-family: gilroy;
+    font-size:17px;
+    font-weight:500;
+}
+
+#name{
+    position: absolute;
+    top: 40%;
+    left: 32%;
+    width: 30%;
+    height: 5%;
+    border: 2px solid rgba(82, 82, 216, 0.418);
+    border-radius: 10px;
+    padding: 1px 20px;
+}
+
+#class{
+    position: absolute;
+    top: 48%;
+    left: 32%;
+    width: 30%;
+    height: 5%;
+    border: 2px solid rgba(82, 82, 216, 0.418);
+    border-radius: 10px;
+    padding: 1px 20px;
+}
+
+#B{
+    position: absolute;
+    top: 56%;
+    left: 32%;
+    width: 30%;
+    height: 5%;
+    border: 2px solid rgba(82, 82, 216, 0.418);
+    border-radius: 10px;
+    padding: 1px 20px;
+}
+#e{
+    position: absolute;
+    top: 63%;
+    left: 32%;
+    width: 30%;
+    height: 5%;
+    border: 2px solid rgba(82, 82, 216, 0.418);
+    border-radius: 10px;
+    padding: 1px 20px;
+}
+#pin{
+    position: absolute;
+    top: 70.5%;
+    left: 32%;
+    width: 30%;
+    height: 5%;
+    border: 2px solid rgba(82, 82, 216, 0.418);
+    border-radius: 10px;
+    padding: 1px 20px;
+}
+#no{
+    position: absolute;
+    top: 78%;
+    left: 32%;
+    width: 30%;
+    height: 5%;
+    border: 2px solid rgba(82, 82, 216, 0.418);
+    border-radius: 10px;
+    padding: 1px 20px;
+}
+
+button{
+    font-size: 15px;
+    font-weight: 600;
+    position: auto;
+
+    background-color: #19c94bef;
+    border: 1px solid  #19c94bef;
+    border-radius: 28px;
+    box-shadow: 1px 5px 8px  #19c94bef;
+}
+
+button:hover{
+    font-size: 18px;
+    cursor: pointer;
+}
